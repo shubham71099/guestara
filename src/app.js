@@ -5,6 +5,7 @@ const subCategoryRoutes = require('./routes/subCategory');
 const itemRoutes = require('./routes/item');
 
 const app = express();
+dotenv.config();
 
 // Connect to the database
 connectDB();
