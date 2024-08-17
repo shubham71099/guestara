@@ -17,4 +17,7 @@ router.get('/:id', subCategoryController.getSubCategoryById);
 // Update a sub-category
 router.put('/:id', subCategoryController.updateSubCategory);
 
+// Route to search for items by name
+router.get('/search', subCategoryController.searchItemByName);
+
 module.exports = router;
