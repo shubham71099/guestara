@@ -1,4 +1,4 @@
-# Guestara Backend Assignment
+# Guestara Menu Management Assignment
 
 This project is a Node.js backend server for managing a menu system that includes categories, subcategories, and items. The server is built using Express.js and MongoDB.
 
